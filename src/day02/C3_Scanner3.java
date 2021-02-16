@@ -21,6 +21,7 @@ public class C3_Scanner3 {
 		String surname= scan.nextLine();
 		
 		System.out.println(name + " " + surname);
+		scan.close();
 	}
 
 }

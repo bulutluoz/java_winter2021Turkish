@@ -18,5 +18,6 @@ public class C2_Scanner2 {
 		
 		
 		System.out.println("dairenin alani= " + 3.14 *yaricap*yaricap);
+		scan.close();
 	}
 }

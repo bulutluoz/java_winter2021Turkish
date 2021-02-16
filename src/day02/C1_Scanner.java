@@ -37,6 +37,7 @@ public class C1_Scanner {
 		
 		System.out.println("girdiginiz kenar uzunluguna sahip karenin alani= "+kenar*kenar);
 		//5.2 *5.2 = 27.04
+		scan.close();
 	}
 
 }
