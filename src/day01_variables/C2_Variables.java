@@ -1,4 +1,4 @@
-package day01;
+package day01_variables;
 
 public class C2_Variables {
 	
