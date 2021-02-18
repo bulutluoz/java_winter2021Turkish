@@ -1,4 +1,4 @@
-package day04;
+package day04_matematikselIslemlerModulus;
 
 import java.util.Scanner;
 

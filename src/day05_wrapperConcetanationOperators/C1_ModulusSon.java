@@ -1,4 +1,4 @@
-package day05;
+package day05_wrapperConcetanationOperators;
 
 public class C1_ModulusSon {
 

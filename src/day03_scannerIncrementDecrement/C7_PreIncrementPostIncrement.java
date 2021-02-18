@@ -1,4 +1,4 @@
-package day03;
+package day03_scannerIncrementDecrement;
 
 public class C7_PreIncrementPostIncrement {
 

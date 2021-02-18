@@ -1,4 +1,4 @@
-package day05;
+package day05_wrapperConcetanationOperators;
 
 public class C3_Concatenation {
 
@@ -8,7 +8,7 @@ public class C3_Concatenation {
 		
 		String str1="Java";
 		String str2="Guzeldir";
-		String bosluk= " ";
+		//String bosluk= " ";
 		
 		System.out.println(str1+str2); // JavaGuzeldir
 		// eger arada bosluk birakmak isterseniz

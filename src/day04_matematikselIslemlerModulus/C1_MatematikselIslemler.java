@@ -1,4 +1,4 @@
-package day04;
+package day04_matematikselIslemlerModulus;
 
 public class C1_MatematikselIslemler {
 
