@@ -28,6 +28,7 @@ public class C4_IfStatement4 {
 		}
 
 		// bu kodda gun ismi yanlis yazilmissa olusacak durum yok
+		scan.close();
 	}
 
 }
