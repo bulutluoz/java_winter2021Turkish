@@ -1,4 +1,4 @@
-package day03_scannerIncrementDecrement;
+package day03_scannerincrementdecrement;
 
 import java.util.Scanner;
 

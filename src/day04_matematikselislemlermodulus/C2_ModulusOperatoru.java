@@ -1,4 +1,4 @@
-package day04_matematikselIslemlerModulus;
+package day04_matematikselislemlermodulus;
 
 public class C2_ModulusOperatoru {
 

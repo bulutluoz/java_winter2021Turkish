@@ -1,4 +1,4 @@
-package day03_scannerIncrementDecrement;
+package day03_scannerincrementdecrement;
 
 public class C6_IncrementDecrement {
 	public static void main(String[] args) {
