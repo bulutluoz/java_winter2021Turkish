@@ -27,7 +27,7 @@ public class C1_IfStatement {
 			System.out.println("buyuk sayi");
 		}
 		
-
+		scan.close();
 	}
 
 }

@@ -10,7 +10,7 @@ public class C3_IfElse2 {
 		
 		Scanner scan =new Scanner(System.in);
 		System.out.println("Lutfen bir karakter giriniz");
-		char karakter=scan.next().charAt(0);
+		char karakter=scan.next().charAt(0); 
 		
 		if ((karakter >='a' && karakter<='z') || (karakter >='A' && karakter<='Z')) {
 			System.out.println("girdigini karakter harf");

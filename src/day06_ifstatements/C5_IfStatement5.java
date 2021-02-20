@@ -28,6 +28,7 @@ public class C5_IfStatement5 {
 		if(kenar1<=0 || kenar2<=0  ) {
 			System.out.println("Lutfen gecerli uzunluk giriniz");
 		}
+		scan.close();
 		
 		// bug : yazilimdaki hatalara denir
 	}

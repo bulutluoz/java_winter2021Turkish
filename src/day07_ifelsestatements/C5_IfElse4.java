@@ -20,8 +20,8 @@ public class C5_IfElse4 {
 		} else {
 			System.out.println("eskenar degil");
 		}
+		scan.close();
 		
-
 	}
 
 }
