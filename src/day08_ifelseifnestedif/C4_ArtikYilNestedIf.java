@@ -36,10 +36,8 @@ public class C4_ArtikYilNestedIf {
 				}
 
 			}
-			
-			
-			scan.close();
 
+			scan.close();
 	}
 
 }
