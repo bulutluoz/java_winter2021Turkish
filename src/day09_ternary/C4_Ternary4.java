@@ -18,7 +18,7 @@ public class C4_Ternary4 {
 		// girilen sayinin mutlak degerini yazdiriniz
 		// 5 ->5    -12 -> 12  (girilen sayi x olsun . x pozitifse |x|=x  x negatifse |x|=-x )
 		
-		System.out.println(sayi>0 ? sayi : -sayi);
+		System.out.println("Sayinin mutlak degeri : " + (sayi>0 ? sayi : -sayi));
 		
 		
 	}
