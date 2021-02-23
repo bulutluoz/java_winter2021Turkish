@@ -46,7 +46,7 @@ public class C5_Nestedif4 {
 		}
 		
 		
-		
+		scan.close();
 		
 		
 		
