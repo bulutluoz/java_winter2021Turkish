@@ -23,6 +23,7 @@ public class C5_NestedTernary1 {
 				       "gecersiz kenar uzunlugu";
 		
 		System.out.println(sonuc);
+		scan.close();
 	}
 
 }

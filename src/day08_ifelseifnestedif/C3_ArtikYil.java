@@ -32,7 +32,7 @@ public class C3_ArtikYil {
 			}
 			
 			
-			
+			scan.close();
 	}
 
 	

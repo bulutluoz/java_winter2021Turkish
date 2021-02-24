@@ -20,7 +20,7 @@ public class C4_Ternary4 {
 		
 		System.out.println("Sayinin mutlak degeri : " + (sayi>0 ? sayi : -sayi));
 		
-		
+		scan.close();
 	}
 
 }

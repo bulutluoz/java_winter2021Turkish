@@ -16,6 +16,7 @@ public class C3_Ternar3 {
 		
 		
 		System.out.println(sayi1>sayi2 ? sayi1 : sayi2 );
+		scan.close();
 		
 	}
 

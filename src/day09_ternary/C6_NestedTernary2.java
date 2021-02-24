@@ -17,7 +17,7 @@ public class C6_NestedTernary2 {
 						? ((harf>='a' && harf<='z') )?"ilk harf kucuk harf" : "ilk harf buyuk harf"
 						: "gecersiz karakter";
 		System.out.println(sonuc);			
-		
+		scan.close();
 	}
 
 }
