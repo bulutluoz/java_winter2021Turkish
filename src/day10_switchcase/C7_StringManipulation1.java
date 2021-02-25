@@ -14,13 +14,14 @@ public class C7_StringManipulation1 {
 		
 		System.out.println(str); // Hello World
 		
-		String str2=str.toUpperCase();
+		String str2 = str.toUpperCase();
 		
 		System.out.println(str); // Hello World
 		
 		System.out.println(str2); // HELLO WORLD
-				
-
-	}
+			
+		
+		
+	}	
 
 }
