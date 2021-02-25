@@ -19,7 +19,7 @@ public class C2_CharAt {
 		// bana son harfi verecek kodu yaziniz 
 		// str.charAt(9)
 		
-		System.out.println(str.charAt(14)); // exception verir
+		//System.out.println(str.charAt(14)); // exception verir
 		// eger index olarak String'in uzunlugu veya daha buyuk bir sayi girilirse
 		
 		
@@ -28,7 +28,12 @@ public class C2_CharAt {
 						 // Derleme zaman hatasi
 						 // Bu tur hatalar duzeltilmeden Java kodu calistirmaz
 
-
+		//System.out.println(str.charAt(14)); // bazi hatalar syntax'den anlasilmaz,
+						// ancak kod calistirildiktan sonra Java islemi yaparken anlasilir
+						// Kod Run edildiginde ortaya ciktigi icin bu tur hatalara
+						// Run Time Error denir RTE
+		
+		
 	}
 
 }
