@@ -22,6 +22,8 @@ public class C3_LowerUpperCase {
 		
 		System.out.println(str.toLowerCase(Locale.forLanguageTag("tr")));
 		
+	
+		
 
 	}
 
