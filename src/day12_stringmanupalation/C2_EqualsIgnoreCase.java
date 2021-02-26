@@ -9,7 +9,7 @@ public class C2_EqualsIgnoreCase {
 		
 		String str1 = "Ali Can";
 		String str2 = "ali CAN";
-		String str3 = "Ali Can ";
+		String str3 = "Ali Can "; 
 		
 		System.out.println(str1.equals(str2)); // false 
 		System.out.println(str1.equalsIgnoreCase(str2)); // true
