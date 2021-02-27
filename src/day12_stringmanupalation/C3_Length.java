@@ -28,14 +28,15 @@ public class C3_Length {
 						  // null case sensitive'dir , dolayisiyla NULL veya Null yazilmaz
 						  // null bir deger degildir, sadece hicligi gosteren bir pointer'dir	
 		
-		
+		System.out.println(str3);
 		//System.out.println(str3.length()); // RTE verir
 		
 		// null deger atanan String ile String manipulation method'lari kullanilamaz
 		//System.out.println(str3.equals(str2));
 		System.out.println(str.charAt(1)); // indexi 1 olan(bastan ikinci) harfi verir
-		System.out.println(str3.charAt(1)); // RTE
+		//System.out.println(str3.charAt(1)); // RTE
 
+		scan.close();
 	}
 
 }

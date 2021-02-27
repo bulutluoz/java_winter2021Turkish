@@ -44,6 +44,7 @@ public class C4_IndexOf {
 			System.out.println("Cumle Java icermiyor");
 		}
 
+		scan.close();
 	}
 
 }

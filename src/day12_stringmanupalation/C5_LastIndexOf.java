@@ -29,9 +29,8 @@ public class C5_LastIndexOf {
 		} else {
 			System.out.println("cumle 1'den fazla java iceriyor");
 		}
-		
-		
 
+		scan.close();
 	}
 
 }
