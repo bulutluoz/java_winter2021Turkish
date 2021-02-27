@@ -21,9 +21,13 @@ public class C3_StartsWithIsEmpty {
 		
 		System.out.println(str2.isEmpty()); // true
 		
-		String str3=null;
+		
+		String str3=null;  // null bir deger degisldir
+						   // sadece str3'un hic bir seye esit olmadigini gosteren POINTER'dir
 		
 		System.out.println(str3.isEmpty());  // RTE
+		
+		
 	}
 
 }
