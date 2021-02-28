@@ -27,7 +27,7 @@ public class C9_Examples3 {
 		String soyisimIlkHarf=soyisim.toUpperCase().substring(0, 1);
 		String soyisimGeriyeKalan= soyisim.substring(1).replaceAll("\\w", "*");
 		String kartNoBasi = "**** **** **** ";
-		String kartNoSonu = kartNo.substring(kartNo.length() -5);
+		String kartNoSonu = kartNo.substring(kartNo.length() -4);
 		
 		System.out.println("isminiz ve soyisminiz : " +  isimIlkHarf + isimGeriKalan +" " +
 				           soyisimIlkHarf + soyisimGeriyeKalan);
