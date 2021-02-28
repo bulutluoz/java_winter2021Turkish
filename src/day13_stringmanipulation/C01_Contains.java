@@ -2,7 +2,7 @@ package day13_stringmanipulation;
 
 import java.util.Scanner;
 
-public class C1_Contains {
+public class C01_Contains {
 
 	public static void main(String[] args) {
 		// kullanicidan bir cumle ve aramak istedigi bir String isteyin

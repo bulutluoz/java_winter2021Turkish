@@ -2,7 +2,7 @@ package day13_stringmanipulation;
 
 import java.util.Scanner;
 
-public class C9_Examples3 {
+public class C09_Examples3 {
 
 	public static void main(String[] args) {
 		/*

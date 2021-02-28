@@ -1,6 +1,6 @@
 package day13_stringmanipulation;
 
-public class C5_ReplaceAll {
+public class C05_ReplaceAll {
 
 	public static void main(String[] args) {
 		// 

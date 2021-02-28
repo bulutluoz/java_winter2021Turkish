@@ -2,7 +2,7 @@ package day13_stringmanipulation;
 
 import java.util.Scanner;
 
-public class C2_EndsWith {
+public class C02_EndsWith {
 
 	public static void main(String[] args) {
 		//

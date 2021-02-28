@@ -2,7 +2,7 @@ package day13_stringmanipulation;
 
 import java.util.Scanner;
 
-public class C4_Replace {
+public class C04_Replace {
 
 	public static void main(String[] args) {
 		// Kullanicidan bir cumle isteyin 

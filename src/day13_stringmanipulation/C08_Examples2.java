@@ -1,6 +1,6 @@
 package day13_stringmanipulation;
 
-public class C8_Examples2 {
+public class C08_Examples2 {
 
 	public static void main(String[] args) {
 		/*

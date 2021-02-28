@@ -1,6 +1,6 @@
 package day13_stringmanipulation;
 
-public class C6_Substring {
+public class C06_Substring {
 
 	public static void main(String[] args) {
 		

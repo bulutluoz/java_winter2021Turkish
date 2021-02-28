@@ -2,7 +2,7 @@ package day13_stringmanipulation;
 
 import java.util.Scanner;
 
-public class C7_Examples1 {
+public class C07_Examples1 {
 
 	public static void main(String[] args) {
 		// Kullanicidan 4 harfli bir kelime isteyin ve girilen kelimeyi tersten yazdirin.

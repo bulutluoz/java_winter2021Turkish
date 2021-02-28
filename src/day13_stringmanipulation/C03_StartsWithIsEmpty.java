@@ -1,6 +1,6 @@
 package day13_stringmanipulation;
 
-public class C3_StartsWithIsEmpty {
+public class C03_StartsWithIsEmpty {
 
 	public static void main(String[] args) {
 		
