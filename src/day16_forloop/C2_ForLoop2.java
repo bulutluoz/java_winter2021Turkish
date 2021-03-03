@@ -29,6 +29,7 @@ public class C2_ForLoop2 {
 
 		}
 
+		scan.close();
 	}
 
 }

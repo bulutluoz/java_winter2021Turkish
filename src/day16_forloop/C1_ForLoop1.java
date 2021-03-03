@@ -34,7 +34,7 @@ public class C1_ForLoop1 {
 			System.out.print(i + ",");
 	
 		}
-		
+		scan.close();
 	}
 
 }
