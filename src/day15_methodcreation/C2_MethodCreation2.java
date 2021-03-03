@@ -37,7 +37,7 @@ public class C2_MethodCreation2 {
 			System.out.println("Cok sayi girdiniz, ben toplayamam");
 		}
 	
-		
+		scan.close();
 	}
 
 	public static void dortSayiTopla() {

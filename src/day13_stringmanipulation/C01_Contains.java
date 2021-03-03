@@ -40,7 +40,7 @@ public class C01_Contains {
 		// eger @gmail.com'un en sonda oldugunu kontrol etmek istersek 
 		
 
-		
+		scan.close();
 
 	}
 

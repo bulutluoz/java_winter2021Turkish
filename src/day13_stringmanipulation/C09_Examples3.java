@@ -32,6 +32,7 @@ public class C09_Examples3 {
 		System.out.println("isminiz ve soyisminiz : " +  isimIlkHarf + isimGeriKalan +" " +
 				           soyisimIlkHarf + soyisimGeriyeKalan);
 		System.out.println("Kart No : " + kartNoBasi + kartNoSonu);
+		scan.close();
 	}
 
 }

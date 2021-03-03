@@ -31,7 +31,7 @@ public class C04_Replace {
 		
 		// hem a hem de e nin yerine i yazalim buyuk kucuk harf gozetmeksizin
 		System.out.println(str2.toLowerCase().replace("a", "i").replace("e", "i"));
-		
+		scan.close();
 	}
 
 }

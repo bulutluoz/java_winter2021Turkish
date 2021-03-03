@@ -22,12 +22,12 @@ public class C03_StartsWithIsEmpty {
 		System.out.println(str2.isEmpty()); // true
 		
 		
-		String str3=null;  // null bir deger degisldir
+		String str3=null;  // null bir deger degildir
 						   // sadece str3'un hic bir seye esit olmadigini gosteren POINTER'dir
 		
-		System.out.println(str3.isEmpty());  // RTE
+		//System.out.println(str3.isEmpty());  // RTE
 		
-		
+		System.out.println(""+str3);
 	}
 
 }

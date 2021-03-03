@@ -22,7 +22,7 @@ public class C07_Examples1 {
 			System.out.print(str.substring(1, 2));
 			System.out.print(str.substring(0, 1));
 		}
-
+		scan.close();
 	}
 
 }
