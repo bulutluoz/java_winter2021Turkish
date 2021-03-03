@@ -21,7 +21,7 @@ public class C4_ForLoop1 {
 		// 3) artis degeri
 		
 		
-		for(double i=100 ; i<102 ; i+=0.1) {
+		for(int i=100 ; i<102 ; i++) {
 			
 			System.out.println(i + " Hello World");
 			
