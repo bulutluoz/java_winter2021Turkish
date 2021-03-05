@@ -31,6 +31,7 @@ public class C4_WhileLoop3 {
 			System.out.print(basHarf + " ");
 			basHarf++;
 		}
+		scan.close();
 		
 	}
 
