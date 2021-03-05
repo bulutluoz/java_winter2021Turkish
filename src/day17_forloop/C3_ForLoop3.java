@@ -19,7 +19,7 @@ public class C3_ForLoop3 {
 			faktoryelBul(sayi);	// 5
 		}
 		
-		
+		scan.close();
 	}
 
 	public static void faktoryelBul(int sayi) {
