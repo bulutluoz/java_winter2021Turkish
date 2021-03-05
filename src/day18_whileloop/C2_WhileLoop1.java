@@ -29,8 +29,7 @@ public class C2_WhileLoop1 {
 		
 		sayi++; //3.sarti gerceklestirdim (degisim degeri)	
 		}
-		System.out.println("");
-		System.out.println("loop bitti mi ?");
+
 	}
 
 }
