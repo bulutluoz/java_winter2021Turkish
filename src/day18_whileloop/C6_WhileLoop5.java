@@ -15,8 +15,7 @@ public class C6_WhileLoop5 {
 		while(bolen<sayi) {
 			
 			if (sayi%bolen==0) {
-				flag="Asal sayi degil";
-				
+				flag="Asal sayi degil";			
 			}
 			bolen++;
 		}
