@@ -26,6 +26,7 @@ public class C2_Flag {
 		}
 		
 		System.out.println("verdiginiz cumlede buyuk harf " + flag);
+		scan.close();
 	}
 
 }

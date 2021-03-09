@@ -48,7 +48,7 @@ public class C4_DoWhileLoop2 {
 		System.out.println("Girdiginiz pozitif sayilarin toplami : " + toplamPoz);
 		
 		
-
+		scan.close();
 	}
 
 }

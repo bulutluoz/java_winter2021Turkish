@@ -18,6 +18,7 @@ public class C6_Scope {
 	public static void denemeMethod() {
 		// sayi=20;
 		String isim="Mehmet";
+		System.out.println(isim);
 	}
 	
 	
