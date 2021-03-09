@@ -19,7 +19,9 @@ public class Scope5 {
 		
 		// System.out.println(i); 
 		
-		int count=0;
+		int count=0; // method'a ait local variable'dir
+					 // deger atamadan kullanmaya calisirsaniz CTE alirsiniz
+		
 		while(count <5) {
 			System.out.println(count);
 			count++;
