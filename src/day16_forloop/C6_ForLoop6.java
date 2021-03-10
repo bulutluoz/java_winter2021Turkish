@@ -33,7 +33,7 @@ public class C6_ForLoop6 {
 		// 3.yol method olusturup bunu yazdirabiliriz
 		
 		tersineCevir(yazi);
-		
+		scan.close();
 
 	}
 

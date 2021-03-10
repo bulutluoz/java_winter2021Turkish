@@ -14,6 +14,9 @@ public class Scope6 {
 	int num2 = 6;
 	char letter;
 	System.out.println("Do addition ");
+	
+	letter='a';
+	System.out.println(num2 + " " + letter);
 	}
 	
 	
