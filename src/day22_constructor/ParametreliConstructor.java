@@ -16,8 +16,8 @@ public class ParametreliConstructor {
 		
 	}
 	public ParametreliConstructor(String Marka,String Model) { //3
-		this.marka=marka;
-		this.model=model;
+		this.marka=Marka;
+		this.model=Model;
 	}
 	public ParametreliConstructor(String marka, String model,int yil, boolean kazasiVarMi) { //4
 		this.marka=marka;

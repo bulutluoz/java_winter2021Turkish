@@ -10,7 +10,7 @@ public class OtomobilRunner {
 
 		
 		Otomobil oto2 = new Otomobil ("Kirmizi");
-		
+		System.out.println(oto2.marka);
 	}
 
 }
