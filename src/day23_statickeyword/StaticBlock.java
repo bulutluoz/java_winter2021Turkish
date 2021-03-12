@@ -10,7 +10,10 @@ public class StaticBlock {
 		System.out.println("1.static block calisti");
 	}
 
-
+	static {
+		isim="Mehmet";
+		System.out.println(isim);
+	}
 	
 
 	public static void main(String[] args) {
@@ -21,10 +24,7 @@ public class StaticBlock {
 
 	}
 	
-	static {
-		isim="Mehmet";
-		System.out.println(isim);
-	}
+
 
 }
 
