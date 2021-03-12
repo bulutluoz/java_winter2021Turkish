@@ -10,7 +10,8 @@ public class Static2 {
 		        x+=i;
 		        y+=i;
 		    }
-		    public static void main(String[] args) {
+		    @SuppressWarnings("static-access")
+			public static void main(String[] args) {
 		        
 		        new Static2(2) ; 
 		        Static2 dnm = new Static2(3);

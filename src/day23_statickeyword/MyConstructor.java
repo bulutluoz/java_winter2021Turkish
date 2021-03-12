@@ -24,7 +24,8 @@ public class MyConstructor {
 	        this.x-=4;
 	        System.out.println("-x"+x);
 	    }
-	    public static void main(String[] args) {
+	    @SuppressWarnings("unused")
+		public static void main(String[] args) {
 	        MyConstructor mc1 = new MyConstructor (4,3);
 	    }
 	}
