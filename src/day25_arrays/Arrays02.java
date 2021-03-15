@@ -50,7 +50,7 @@ public class Arrays02 {
 		
 		String arrayString = Arrays.toString(arr2);
 		System.out.println(arrayString);
-		System.out.println(arrayString.substring(5));
+		System.out.println(arrayString.substring(5)); // bastaki [ dahil tum array'i String'e cevirir
 		
 	}
 
