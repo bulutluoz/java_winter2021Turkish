@@ -39,8 +39,11 @@ public class ArrayList03 {
 		int yeniSayi=0;
 		
 		while(yeniSayi<sayi) {
+			
 			yeniSayi=fibo.get(i-2)+fibo.get(i-1);
+			
 			fibo.add(yeniSayi);
+			
 			i++;
 		}
 		
