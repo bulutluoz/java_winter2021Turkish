@@ -5,6 +5,7 @@ import java.util.List;
 
 public class C2_ArrayList01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// bir ArrayList nasil olusturulur ?
 		// ArrayList bir objedir, dolayisiyla yeni bir tane oilusturmak icin new keyword kullanmaliyiz
