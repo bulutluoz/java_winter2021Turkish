@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Arrays01 {
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		

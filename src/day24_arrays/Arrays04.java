@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Arrays04 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// Kullanicidan degerler alarak int bir array olusturun
 		// once kullanicidan girecegi sayi adedini almamiz lazim ki array'i olusturalim

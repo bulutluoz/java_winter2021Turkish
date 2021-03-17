@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MultiDimensionalArrays01 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		/* 1- Ic icice array olusturdugumuzda disardaki ana array'e outer array
 		 	  icerdeki kucuk array'lere ise inner array denir
@@ -31,9 +32,6 @@ public class MultiDimensionalArrays01 {
 		// outer array'in icinde inner array'ler oldugundan toString method'unda inner array'lerin
 		// referans degerleri yazdirilir
 		System.out.println(Arrays.deepToString(arr2)); 
-		
-		
-		
 
 	}
 
