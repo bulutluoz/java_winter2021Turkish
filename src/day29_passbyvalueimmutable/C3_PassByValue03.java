@@ -23,7 +23,7 @@ public class C3_PassByValue03 {
 		degistirFor(list);
 		System.out.println("1.method call'dan sonra : " + list); // [10, 11, 12]
 		degistirSet(list);
-		System.out.println("Set ile degistirdigimiz liste main method'un icinde : " + list);//[10,11,12] ?
+		System.out.println("Set ile degistirdigimiz liste main method'un icinde : " + list);//[13,14,15] ?
 	}
 
 	public static void degistirSet(List<Integer> list) {
@@ -31,6 +31,8 @@ public class C3_PassByValue03 {
 			list.set(i, list.get(i)+3);
 		}
 		System.out.println("Set ile degistirdigimiz liste method'un icinde : " + list); // [13, 14, 15]
+		// Java Pass By Value kullanir ancak list'deki set method'u istisnai olarak
+		// method'un icinde yapilan degoisiklikleri de kalici hale getirir.
 	}
 
 	public static void degistirFor(List<Integer> list) {
