@@ -18,7 +18,7 @@ public class C4_DateTimeFormatter {
 		System.out.println(dtf.format(tarih)); //2021/Mar/19
 		System.out.println(dtf2.format(tarih)); //21/03/19
 		System.out.println(dtf3.format(tarih)); //2021*3*19
-		System.out.println(dtf4.format(tarih)); //2021*3*19
+		System.out.println(dtf4.format(tarih)); //2021-March-19
 	}
 
 }
