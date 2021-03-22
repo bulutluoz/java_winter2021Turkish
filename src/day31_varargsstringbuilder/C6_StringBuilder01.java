@@ -23,14 +23,18 @@ public class C6_StringBuilder01 {
 		sb3.append(" Hoca");
 		System.out.println("sb3 append: " + sb3); // sb3 append:  Hoca
 		
-		System.out.println("sb1 uzunluk " + sb1.length()); // 5
-		System.out.println("sb1 kapasite" + sb1.capacity()); // 16
+		System.out.println("sb1 uzunluk " + sb1.length()); // 5 " Hoca"
+		System.out.println("sb1 kapasite " + sb1.capacity()); // 16 bir deger yazmadigimiz icin def.cap. 16
 		
-		System.out.println("sb2 uzunluk " + sb2.length()); // 5
-		System.out.println("sb2 kapasite" + sb2.capacity()); // 16
+		System.out.println("sb2 uzunluk " + sb2.length()); // 11 Mehmet Hoca
+		System.out.println("sb2 kapasite " + sb2.capacity()); // 22 basta biz 6 olusturduk 16 da def.deger
 		
-		System.out.println("sb3 uzunluk " + sb3.length()); // 5
-		System.out.println("sb3 kapasite" + sb3.capacity()); // 16
+		System.out.println("sb3 uzunluk " + sb3.length()); // 5 " Hoca"
+		System.out.println("sb3 kapasite " + sb3.capacity()); // 10 basta 10 kapsite verdigimniz icin dolana kadar 10 u kullanir
+		
+		// capacity hafiza yonetimi icin cok onemli
+		// kod yazilirken sabt uzunluk veya max.uzunluk belli ise 
+		// 3.method ile ile olusturarak HAFIZA KULLANIMINI optimize edebiliriz.
 		
 	}
 
