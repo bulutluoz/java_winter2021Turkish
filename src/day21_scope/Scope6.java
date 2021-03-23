@@ -1,8 +1,9 @@
 package day21_scope;
 
 public class Scope6 {
-	int num1;
-	String name = "Ali";
+	public int num1;	 // access modifier public yapilinca heryerden ulasilabilir
+	String name = "Ali"; // access modifier yazilmadigi icin default access modifier gecerlidir
+						 // sadece paket icinde kullanilabilir
 	
 	public static void main(String args){ 
 	  add();

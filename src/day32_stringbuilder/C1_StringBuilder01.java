@@ -107,7 +107,7 @@ public class C1_StringBuilder01 {
 		System.out.println(sb1.capacity()); //27
 		
 		// System.out.println(sb3.compareTo(sb4));
-		// 
+		
 	}
 
 }

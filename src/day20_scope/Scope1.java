@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Scope1 {
 
-	int sayi; // class'in icinde fakat main method'un disinda olusturulan
+	public int sayi; // class'in icinde fakat main method'un disinda olusturulan
 			  // ve static olmayan variable'lara INSTANCE (Object) variable denir
 	          // class level'da olusturuldugu icin class'in her yerinden belli sartlarla kullanilabilir
 			  // Instance variable'lar object'e bagli olarak calisir (ogretmen adi veya, ogrenci notu gibi)
