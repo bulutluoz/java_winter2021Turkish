@@ -19,6 +19,11 @@ public class Encapsulation03 {
 		System.out.println(obj2.sayi); // 100
 		
 		System.out.println(obj1.getOkulIsmi()); // get method'u oldugu icin sadece bilgi verir
+		// obj1.getOkulIsmi()="Mehmet Koleji"; // get method'u sadece okur, degistiremez
+		
+		obj1.setTcNo("326547895447");
+		// System.out.println(obj1.setTcNo("12356478912")); set() methodu okumaya izin vermez
+		System.out.println(obj1.getTcNo());
 		
 	
 		// Bir Class içinde class member oluşturuken bunu diğer class'lar ile
@@ -26,8 +31,6 @@ public class Encapsulation03 {
 		// 1-  Herkes okuyabilsin ve obje üzerinden değer atayıp kullanbilsin ==> public
 		// 2 - Herkes okuyabilsin ama kimse obje uzerinden de olsa değiştiremesin Private ==> Public get();
 		// 3 - İlk atadığım değeri kimse goremesin Private ==> Public set ()
-		
-		
 
 	}
 

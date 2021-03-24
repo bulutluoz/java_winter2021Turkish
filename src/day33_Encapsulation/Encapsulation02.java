@@ -44,6 +44,10 @@ public class Encapsulation02 {
 		this.hesapNo = hesapNo;
 	}
 
+	public String getTcNo() {
+		return tcNo;
+	}
+
 
 
 }
