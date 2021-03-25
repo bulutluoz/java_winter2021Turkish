@@ -5,6 +5,7 @@ import java.time.ZoneId;
 
 public class C2_LocalTime {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		// Java'da saat ile islem yapmak icin
 		// LocalTime class'indan obje kullaniriz

@@ -4,6 +4,7 @@ import java.time.LocalTime;
 
 public class C2_StringBuilder02 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// 100000 kere donecek bir loop yazalim
 		// loop'da String ve StringBuilder kullanip 

@@ -1,4 +1,4 @@
-package day33_Encapsulation;
+package day33_encapsulation;
 
 public class Encapsulation02 {
 	private String okulIsmi="Yildiz Koleji";
@@ -6,6 +6,7 @@ public class Encapsulation02 {
 	// getter() method'u olusturuyoruz
 	
 	private String tcNo="12345678901";
+	@SuppressWarnings("unused")
 	private int hesapNo=5554321;
 	// Obje olusturularak deger atanip kullanilmasini istedigimiz ama 
 	// ilk atadigimiz degerin gorunmemesini istiyorsak setter() method'u kullaniriz
@@ -28,6 +29,7 @@ public class Encapsulation02 {
 		
 	}
 	
+	@SuppressWarnings("unused")
 	private void denemeMethod() {
 		System.out.println("Deneme method'u calisti");
 	}

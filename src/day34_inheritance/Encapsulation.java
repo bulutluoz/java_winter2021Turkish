@@ -1,4 +1,4 @@
-package day34_Inheritance;
+package day34_inheritance;
 
 public class Encapsulation {
 

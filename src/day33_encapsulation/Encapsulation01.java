@@ -1,10 +1,11 @@
-package day33_Encapsulation;
+package day33_encapsulation;
 
 import day20_scope.Scope1;
 import day21_scope.Scope6;
 
 public class Encapsulation01 {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		// OOP concept
 		// Object Oriented Programing

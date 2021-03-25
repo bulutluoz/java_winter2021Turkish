@@ -1,4 +1,4 @@
-package day33_Encapsulation;
+package day33_encapsulation;
 
 public class Encapsulation03 {
 
