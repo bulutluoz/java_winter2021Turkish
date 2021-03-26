@@ -10,7 +10,7 @@ public class Memur extends Personel{
 	}
 	
 	public Memur(int maas) {
-		super("Seher",6000);
+		super();
 		System.out.println("Child class parametreli constructor calisti");
 	}
 	
@@ -23,6 +23,7 @@ public class Memur extends Personel{
 	 	baska bir keyword yazarsak etkisiz hale gelir.
 	 *** extends varsa yerine birsey yazmadikca super() calisir..... ***
 	 */
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		Memur obj1=new Memur(2400);
