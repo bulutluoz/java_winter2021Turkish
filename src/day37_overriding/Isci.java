@@ -9,7 +9,7 @@ public class Isci extends Personel{
 	
 	
 	
-	public int maasHesapla() {
+	protected int maasHesapla() {
 		return 30*8*15; // 30 gun sayisi, 8 gunluk mesai,15 saat ucreti
 	}
 	
@@ -17,9 +17,7 @@ public class Isci extends Personel{
 		System.out.println("isciler gunluk 8 saat calisir");
 	}
 	
-	
-	
-	
+
 	
 	// overloading : ayni isimde ama farkli method signature'larina sahip methodlar
 	public int maasHesapla(int gunSayisi) {
