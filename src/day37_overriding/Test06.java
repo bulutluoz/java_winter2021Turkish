@@ -11,6 +11,7 @@ class C {
 	public void create() { System.out.print("c");
 	}}
 class U {
+	@SuppressWarnings("unused")
 	private void update() { System.out.print("u");
 	}}
 class R extends C {
