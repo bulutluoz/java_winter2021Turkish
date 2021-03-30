@@ -14,7 +14,7 @@ public class Exceptions03 {
 		
 		try {
 		System.out.println(sayi1/sayi2);
-		} catch (ArithmeticException e) {
+		} catch (ArithmeticException e) { // int a, String str, Object obj1 gibi...
 		// ArithmeticException java'da bir class ve e objesi icin data turu
 		// e ise ArithmeticException class'indan olusturdugumuz objenin adi
 		// o zaman ismi e olmak zorunda degiliz ama genelde e kullanilir	
