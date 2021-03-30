@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exceptions01 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// Kullanicidan 2 tamsayi alin ve bolumlerini yazdirin
 		

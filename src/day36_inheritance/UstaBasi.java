@@ -1,7 +1,7 @@
 package day36_inheritance;
 
-import java.util.ArrayList;
-import java.util.List;
+
+
 
 public class UstaBasi extends Isci{
 	

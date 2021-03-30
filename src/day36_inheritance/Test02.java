@@ -11,6 +11,7 @@ public class Test02 extends Derived {
 		System.out.println("Test class");
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Test02 obj = new Test02();
 

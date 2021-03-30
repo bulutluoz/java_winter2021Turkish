@@ -2,6 +2,7 @@ package day38_exceptions;
 
 public class Exceptions03 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// try catch blogundaki e nin gorevi 
 		
@@ -17,13 +18,13 @@ public class Exceptions03 {
 		// ArithmeticException java'da bir class ve e objesi icin data turu
 		// e ise ArithmeticException class'indan olusturdugumuz objenin adi
 		// o zaman ismi e olmak zorunda degiliz ama genelde e kullanilir	
-			//System.out.println("sayiyi sifira bolemezsin"); // bizim kullaniciya vermek istedigimiz mesaj
-			//System.out.println(e); // java.lang.ArithmeticException: / by zero
+			System.out.println("sayiyi sifira bolemezsin"); // bizim kullaniciya vermek istedigimiz mesaj
+			System.out.println(e); // java.lang.ArithmeticException: / by zero
 		// bu durumda hem java'ya sorunu yazmasi icin firsat vermis
 		// hem de aplicayion'i bloke etmemis oluruz
-			//System.out.println(e.getMessage()); // / by zero
+			System.out.println(e.getMessage()); // / by zero
 
-		//	e.printStackTrace(); 
+			e.printStackTrace(); 
 			/*
 			 	java.lang.ArithmeticException: / by zero
 				at day38_exceptions.Exceptions03.main(Exceptions03.java:15)
