@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exceptions08 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		/*
 		 
@@ -22,7 +23,7 @@ public class Exceptions08 {
 		try {
 		System.out.println(2*Integer.parseInt(str));
 		} catch(NumberFormatException e) {
-			System.out.println("Girdiginiz String sayiya cevrilemez");
+			System.out.println("Girdiginiz String sayiya cevrilemez"); 
 		}
 	}
 

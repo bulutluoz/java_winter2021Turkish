@@ -6,6 +6,7 @@ import java.io.IOException;
 
 public class Exceptions03 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		/*
 		 *  Icice try-catch yerine

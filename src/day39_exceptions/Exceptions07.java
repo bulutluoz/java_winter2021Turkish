@@ -2,6 +2,7 @@ package day39_exceptions;
 
 public class Exceptions07 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// Data turlerini casting yaparken uygun olmayan islem yaparsaniz
 		// Java ClassCastException verir

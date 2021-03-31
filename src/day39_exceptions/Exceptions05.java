@@ -4,6 +4,7 @@ package day39_exceptions;
 
 public class Exceptions05 {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		
 		// null olarak tanimlanmis bir obje ile uygun olmayan bir islem yapmaya calistiginizda
