@@ -7,7 +7,7 @@ public class Exceptions04 {
 		System.out.print(exceptions());
 	}
 
-	@SuppressWarnings("finally")
+	@SuppressWarnings({ "finally", "null" })
 	public static String exceptions() {
 		String result = "";
 		String v = null;
