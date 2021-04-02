@@ -4,13 +4,14 @@ import java.sql.Date;
 
 public class CheckMemory {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		// gc() metodu ile JVM e istekte bulunuruz ve istegimizin dikkate alinmasinin 
 		// veya sonuclarinin garantisi yoktur!
 		Runtime rt = Runtime.getRuntime(); 
 
 		System.out.println("Total Memory:"+rt.totalMemory());
-		System.out.println("Free Memory:"+rt.freeMemory());
+		System.out.println("Loop'tan once Free Memory:"+rt.freeMemory());
 
 		Date d=null;
 		//Bu adimda cilginca Date objesi olusturalim :)
@@ -27,7 +28,8 @@ public class CheckMemory {
 	}
 
 	// Bendeki ornek cikti su sekilde, calistirdiginizda sizde farkli olacaktir
-	// GC tum olusturalan objeleri silmeyi garanti etmedigi icin After GC Free Memory farkliliklar gosterebilir.
+	// GC tum olusturalan objeleri silmeyi garanti etmedigi icin 
+	// After GC Free Memory farkliliklar gosterebilir.
 
 	//Total Memory:62390272
 	//Free Memory:61717816

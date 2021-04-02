@@ -2,6 +2,7 @@ package day41_errors_garbagecollector;
 
 public class Errors {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
 		// System.out.println(20/0); // RTE degil RunTimeException
@@ -19,6 +20,8 @@ public class Errors {
 		for (int i = 0; i < 10000000 ; i++) {
 			str+=i;
 		}
+		
+
 
 	}
 
