@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Iterator01 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		List<String> list=new ArrayList<>();
 		

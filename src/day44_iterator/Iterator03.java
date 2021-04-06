@@ -6,6 +6,7 @@ import java.util.ListIterator;
 
 public class Iterator03 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		/*
 		 Bir listedeki istenen sayi araliginda olmayan elementleri silen 

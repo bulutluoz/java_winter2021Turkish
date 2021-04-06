@@ -6,6 +6,7 @@ import java.util.ListIterator;
 
 public class Iterator04 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		// iterator'u kullanarak listenin elemanlarini sondan basa dogru yazdirin
 		
