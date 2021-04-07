@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class C2_LinkedList02 {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 		LinkedList<Object> ll1 = new LinkedList<>();
 		// Collections'da esitligin sol tarafinda <>icinde data turu yazilmasa
