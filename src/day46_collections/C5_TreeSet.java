@@ -6,6 +6,7 @@ import java.util.TreeSet;
 
 public class C5_TreeSet {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Set<String> set1 = new TreeSet<>();
 		
