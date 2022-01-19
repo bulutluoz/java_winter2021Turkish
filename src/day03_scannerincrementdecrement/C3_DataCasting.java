@@ -1,7 +1,7 @@
 package day03_scannerincrementdecrement;
 
 public class C3_DataCasting {
-
+//
 	public static void main(String[] args) {
 		// byte veri turunde bir degisken olusturup deger atayin
 		// olusturulan variable'i adim adim AUTO WIDENING ile genisletip yazdirin
